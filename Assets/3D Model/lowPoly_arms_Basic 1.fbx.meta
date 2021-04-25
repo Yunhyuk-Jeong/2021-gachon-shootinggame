@@ -1,35 +1,45 @@
 fileFormatVersion: 2
-guid: ead37257f6cf90c43b99587c5296016b
+guid: 1ace7ecc62334d44e92e6540bdabb734
 ModelImporter:
-  serializedVersion: 19301
-  internalIDToNameTable:
-  - first:
-      74: 1827226128182048838
-    second: Hand_Idle
-  - first:
-      74: -790869410741670869
-    second: Hand_Run
-  - first:
-      74: 2290337782317139632
-    second: Hand_Walk
-  - first:
-      74: 2060030879607851157
-    second: Hand_Attack
-  - first:
-      74: 1791916001524430316
-    second: Hand_Work
-  - first:
-      74: 575354782229240044
-    second: Hand_Weaopn_Out
-  - first:
-      74: 4485154680809676854
-    second: Hand_Weaopn_In
-  - first:
-      74: -2940706197777829719
-    second: Hand_Item
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Armature
+    100002: Camera
+    100004: Cube
+    100006: DownArm.L
+    100008: DownArm.L_end
+    100010: DownArm.R
+    100012: DownArm.R_end
+    100014: //RootNode
+    100016: UpArm.L
+    100018: UpArm.R
+    400000: Armature
+    400002: Camera
+    400004: Cube
+    400006: DownArm.L
+    400008: DownArm.L_end
+    400010: DownArm.R
+    400012: DownArm.R_end
+    400014: //RootNode
+    400016: UpArm.L
+    400018: UpArm.R
+    2000000: Camera
+    2100000: Material.001
+    2100002: Material
+    4300000: Cube
+    7400000: Hand_Idle
+    7400002: Hand_Run
+    7400004: Hand_Walk
+    7400006: Hand_Attack
+    7400008: Hand_Work
+    7400010: Hand_Weapon_Out
+    7400012: Hand_Weapon_In
+    7400014: Hand_Item
+    9500000: //RootNode
+    13700000: Cube
   externalObjects: {}
   materials:
-    materialImportMode: 1
+    importMaterials: 1
     materialName: 0
     materialSearch: 1
     materialLocation: 1
@@ -57,8 +67,7 @@ ModelImporter:
     clipAnimations:
     - serializedVersion: 16
       name: Hand_Idle
-      takeName: Take 001
-      internalID: 0
+      takeName: Armature|ArmatureAction
       firstFrame: 0
       lastFrame: 24
       wrapMode: 0
@@ -86,8 +95,7 @@ ModelImporter:
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Hand_Run
-      takeName: Take 001
-      internalID: 0
+      takeName: Armature|ArmatureAction
       firstFrame: 30
       lastFrame: 40
       wrapMode: 0
@@ -115,8 +123,7 @@ ModelImporter:
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Hand_Walk
-      takeName: Take 001
-      internalID: 0
+      takeName: Armature|ArmatureAction
       firstFrame: 60
       lastFrame: 84
       wrapMode: 0
@@ -144,8 +151,7 @@ ModelImporter:
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Hand_Attack
-      takeName: Take 001
-      internalID: 0
+      takeName: Armature|ArmatureAction
       firstFrame: 90
       lastFrame: 115
       wrapMode: 0
@@ -173,8 +179,7 @@ ModelImporter:
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Hand_Work
-      takeName: Take 001
-      internalID: 0
+      takeName: Armature|ArmatureAction
       firstFrame: 120
       lastFrame: 145
       wrapMode: 0
@@ -201,9 +206,8 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Hand_Weaopn_Out
-      takeName: Take 001
-      internalID: 0
+      name: Hand_Weapon_Out
+      takeName: Armature|ArmatureAction
       firstFrame: 210
       lastFrame: 220
       wrapMode: 0
@@ -230,9 +234,8 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Hand_Weaopn_In
-      takeName: Take 001
-      internalID: 0
+      name: Hand_Weapon_In
+      takeName: Armature|ArmatureAction
       firstFrame: 220
       lastFrame: 230
       wrapMode: 0
@@ -260,8 +263,7 @@ ModelImporter:
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Hand_Item
-      takeName: Take 001
-      internalID: 0
+      takeName: Armature|ArmatureAction
       firstFrame: 240
       lastFrame: 255
       wrapMode: 0
@@ -287,35 +289,32 @@ ModelImporter:
       maskType: 3
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
-    isReadable: 0
+    isReadable: 1
   meshes:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
-    sortHierarchyByName: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
     importLights: 1
-    fileIdsGeneration: 2
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
+    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
     preserveHierarchy: 0
-    skinWeightsMode: 0
-    maxBonesPerVertex: 4
-    minBoneWeight: 0.001
-    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -324,10 +323,10 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
-  referencedClips: []
   importAnimation: 1
+  copyAvatar: 0
   humanDescription:
-    serializedVersion: 3
+    serializedVersion: 2
     human: []
     skeleton: []
     armTwist: 0.5
@@ -337,16 +336,13 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
-  avatarSetup: 0
   additionalBone: 0
   userData: 
   assetBundleName: 
