@@ -205,7 +205,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentGun: {fileID: 1916733062}
   isFineSightMode: 0
-  originPos: {x: 0, y: 0, z: 0}
+  theCam: {fileID: 963194227}
+  hit_effect_prefab: {fileID: 4757712803042955855, guid: d2dda06dd29f2f141b15372f110b4d0e,
+    type: 3}
 --- !u!82 &7519800
 AudioSource:
   m_ObjectHideFlags: 0
@@ -453,13 +455,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 759366143}
-  m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -2.8980002, y: 0.38800007, z: 0.42999983}
-  m_LocalScale: {x: 0.10000003, y: 0.1, z: 0.10000003}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.00023, y: 0.0206, z: -0.00095}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_Children:
   - {fileID: 1089248730}
-  m_Father: {fileID: 1916733061}
-  m_RootOrder: 4
+  m_Father: {fileID: 1307248660}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!199 &759366145
 ParticleSystemRenderer:
@@ -10207,6 +10209,12 @@ Transform:
   m_Father: {fileID: 7519797}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!4 &1307248660 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400016, guid: a9cb88577f40af049aabc5c0e8aa4842,
+    type: 3}
+  m_PrefabInstance: {fileID: 1551769134}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1551769134
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10328,6 +10336,26 @@ PrefabInstance:
       objectReference: {fileID: 9100000, guid: 2da08a156c90be240827532f29a9685c, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a9cb88577f40af049aabc5c0e8aa4842, type: 3}
+--- !u!1 &1672422217 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: 3a9e8388082a69e4c9add7d6ab5ce420,
+    type: 3}
+  m_PrefabInstance: {fileID: 614263079}
+  m_PrefabAsset: {fileID: 0}
+--- !u!136 &1672422220
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1672422217}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 1
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1868148226
 GameObject:
   m_ObjectHideFlags: 0
@@ -10493,9 +10521,9 @@ MonoBehaviour:
   currentBulletCount: 10
   maxBulletCount: 0
   carryBulletCount: 23
-  retroActionForce: 0
-  retroActionFineSightForce: 0
-  fineSightOriginPos: {x: 0, y: 0, z: 0}
+  retroActionForce: 0.3
+  retroActionFineSightForce: 0.7
+  fineSightOriginPos: {x: 0.55, y: 0.335, z: -0.586}
   anim: {fileID: 1916733063}
   muzzleFlash: {fileID: 759366146}
   fire_Sound: {fileID: 8300000, guid: 638bc59d54bc4a64f98788e2b257d402, type: 3}
