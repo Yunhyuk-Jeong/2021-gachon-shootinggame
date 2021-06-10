@@ -1,0 +1,26 @@
+fileFormatVersion: 2
+guid: da1e45a67cced764db77a6bbb8fdde22
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: 210 OmniGothic
+  fontNames:
+  - 210 OmniGothic
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 4c60c9661999968408cf67cab54b75d5, type: 3}
+  - {fileID: 12800000, guid: 7523ca2979107f542a8bc3881d557ce3, type: 3}
+  - {fileID: 12800000, guid: 03c2a91b6e4983549bb8c8962f4003c2, type: 3}
+  - {fileID: 12800000, guid: 390c41df051eedb4097373487d5a4b9b, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
