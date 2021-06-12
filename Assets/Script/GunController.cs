@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class GunController : MonoBehaviour
 {
-
     //* 활성화 여부.
     public static bool isActivate = true;
 

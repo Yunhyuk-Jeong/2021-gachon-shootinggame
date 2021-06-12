@@ -12,7 +12,7 @@ UnityGenerated/
  
 Library/
  
- 
+Build/
  
 # ===================================== #
  
@@ -70,12 +70,6 @@ ProjectSettings.asset
  
 ProjectVersion.txt
 
-
-출처: https://minhyeokism.tistory.com/67 [programmer-dominic.kim]
-
-출처: https://minhyeokism.tistory.com/67 [programmer-dominic.kim]
-
-출처: https://minhyeokism.tistory.com/67 [programmer-dominic.kim]
 .vs/SurvivalGame/v16/Server/sqlite3/db.lock
 .vs/SurvivalGame/v16/Server/sqlite3/storage.ide
 .vs/SurvivalGame/v16/Server/sqlite3/storage.ide-shm
